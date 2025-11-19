@@ -10,12 +10,15 @@ Esse formato foi pensado para:
 - Atender aos **requisitos do Challenge**;
 - Ser ideal para quem está tendo o **primeiro contato com o Azure**.
   
+  
   [Tela inicial do meu agente](Prints/2025-11-19 (15).png)
 
 
 ## 2. Objetivo do agente
 O objetivo do SmartStock é:
 - Listar produtos que estão **próximos do vencimento**, de acordo com um número de dias informado pelo usuário.
+
+  
 [Tela com Prompts de descrição do agente 1](Prints/2025-11-19 (16).png)
 [Tela com Prompts de descrição do agente 2](Prints/2025-11-19 (17).png)
 [Tela com Prompts de descrição do agente 3](Prints/2025-11-19 (18).png)
@@ -73,7 +76,42 @@ Resposta esperada (exemplo):
 > - Queijo Minas Padrão – vence em 5 dias  
 > - Leite Integral – vence em 7 dias.”
 
-[Resposta do agente](Prints/2025-11-19 (20).png)
+[Resposta do agente](Prints/2025-11-19 (20).png) 
+
+## 📌 2. Arquitetura Simplificada do Agente
+
+```text
++----------------------+
+|        Usuário       |
++----------------------+
+           |
+           v
+Pergunta no Playground:
+"Quais produtos vencem
+em até X dias?"
+           |
+           v
++---------------------------+
+|    Agente SmartStock      |
+|  (Azure AI Foundry)       |
++---------------------------+
+           |
+           v
+Lê as instruções e aplica a lógica:
+- Usa a lista interna de produtos
+- Compara dias informados
+- Filtra produtos com vencimento <= X dias
+           |
+           v
++---------------------------+
+|     Resposta ao usuário   |
++---------------------------+
+           |
+           v
+Exemplo:
+- Iogurte Natural – vence em 3 dias
+- Presunto – vence em 4 dias
+- Queijo Minas – vence em 5 dias
 
 
 ## 5. Estrutura do repositório no GitHub
