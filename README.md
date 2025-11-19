@@ -78,7 +78,7 @@ Resposta esperada (exemplo):
 
 [Resposta do agente](Prints/2025-11-19 (20).png) 
 
-## 📌 2. Arquitetura Simplificada do Agente
+### 5.Arquitetura Simplificada do Agente
 
 ```text
 +----------------------+
@@ -113,9 +113,9 @@ Exemplo:
 - Presunto – vence em 4 dias
 - Queijo Minas – vence em 5 dias
 
-> ---
+---
 
-## 5. Estrutura do repositório no GitHub
+## 6. Estrutura do repositório no GitHub
 Sugestão de estrutura:
 - `README.md` → este arquivo, com a explicação do agente.
 - `prints/` → pasta contendo prints de tela do Azure AI Foundry.
@@ -123,20 +123,20 @@ Sugestão de estrutura:
   - `prints/teste_acao.png`
   - `prints/fluxo_execucao.png`
 
-## 6. Prints recomendados para o Challenge
+## 7. Prints recomendados para o Challenge
 Para cumprir bem o item de documentação do Challenge, inclua no README (ou pasta `prints/`) imagens como:
 1. **Tela do agente no Azure AI Foundry** (nome SmartStock visível);
 2. **Tela do chat do agente** mostrando uma pergunta do tipo “produtos que vencem em até 10 dias” e a resposta;
 3. (Opcional) Um pequeno **diagrama simples** mostrando:
    - Usuário → Agente SmartStock → Lista interna de produtos → Resposta.
 
-## 7. Como esse projeto atende ao Challenge
+## 8. Como esse projeto atende ao Challenge
 De acordo com as regras do “Build Your First Copilot Challenge (Foundry Edition)”, este projeto atende aos requisitos mínimos porque:
 - Está em um **repositório público no GitHub**;
 - Possui um **README completo**, com descrição do projeto, objetivo do agente, fluxo e prints;
 - Possui um **agente funcional no Azure AI Foundry**, com pelo menos **uma ação simples** (filtrar produtos por dias para o vencimento);
 - A solução é **simples, clara e reproduzível**, ideal para quem está começando.
 
-## 8. Referências
+## 9. Referências
 - Azure AI Foundry – Documentação oficial  
 - Material do Challenge – Build Your First Copilot Challenge (Foundry Edition)
