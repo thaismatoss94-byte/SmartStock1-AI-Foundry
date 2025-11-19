@@ -9,10 +9,16 @@ Esse formato foi pensado para:
 - Ser **fácil de configurar**;
 - Atender aos **requisitos do Challenge**;
 - Ser ideal para quem está tendo o **primeiro contato com o Azure**.
+  ![Tela inicial do meu agente](Prints/2025-11-19 (15).png)
+
 
 ## 2. Objetivo do agente
 O objetivo do SmartStock é:
 - Listar produtos que estão **próximos do vencimento**, de acordo com um número de dias informado pelo usuário.
+![Tela com Prompts de descrição do agente 1](Prints/2025-11-19 (16).png)
+![Tela com Prompts de descrição do agente 2](Prints/2025-11-19 (17).png)
+![Tela com Prompts de descrição do agente 3](Prints/2025-11-19 (18).png)
+![Tela com Prompts de descrição do agente 4](Prints/2025-11-19 (19).png)
 
 Exemplo de cenário:
 > “Quais produtos vencem em até 10 dias?”
@@ -38,6 +44,10 @@ A lógica é simples:
 
 Não há banco de dados, nem API externa. Tudo é feito na conversa do agente.
 
+![Testando ação do agente 1](Prints/2025-11-19 (20).png)
+![Testando ação do agente 2](Prints/2025-11-19 (21).png)
+![Testando ação do agente 3](Prints/2025-11-19 (22).png)
+
 ## 4. Ação disponível no agente
 O agente possui uma ação conceitual chamada **get_expiring_products**.
 
@@ -50,6 +60,7 @@ O agente possui uma ação conceitual chamada **get_expiring_products**.
 ### O que a ação faz
 Filtra a lista de produtos de exemplo e retorna apenas aqueles que vencem em até X dias.
 
+
 ### Exemplo de uso (no chat do agente)
 Pergunta do usuário:
 > “Liste os produtos que vencem em até 10 dias.”
@@ -60,6 +71,9 @@ Resposta esperada (exemplo):
 > - Presunto – vence em 4 dias  
 > - Queijo Minas Padrão – vence em 5 dias  
 > - Leite Integral – vence em 7 dias.”
+
+![Descrição da imagem](Prints/2025-11-19 (20).png)
+
 
 ## 5. Estrutura do repositório no GitHub
 Sugestão de estrutura:
