@@ -80,7 +80,7 @@ Resposta esperada (exemplo):
 
 ### 5.Arquitetura Simplificada do Agente
 
-
+```text
 +----------------------+
 |        Usuário       |
 +----------------------+
