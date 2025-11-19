@@ -113,6 +113,7 @@ Exemplo:
 - Presunto – vence em 4 dias
 - Queijo Minas – vence em 5 dias
 
+> ---
 
 ## 5. Estrutura do repositório no GitHub
 Sugestão de estrutura:
