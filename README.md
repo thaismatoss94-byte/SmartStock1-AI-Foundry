@@ -111,7 +111,7 @@ Lê as instruções e aplica a lógica:
 Exemplo:
 - Iogurte Natural – vence em 3 dias
 - Presunto – vence em 4 dias
-- Queijo Minas – vence em 5 dias
+- Queijo Minas Padrão – vence em 5 dias
 
 ---
 
